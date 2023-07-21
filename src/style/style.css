@@ -29,6 +29,10 @@ body{
     filter: blur(200px);
 }
 
+#blurMobile{
+    display: none;
+}
+
 /*Containers*/
 
 #container-child{
@@ -137,6 +141,124 @@ footer{
     margin: 0 auto;
 }
 
+#headerMobile{
+    display: none;
+}
+
+h3{
+    display: none;
+}
 
 /*Mobile*/
 
+@media(max-width: 1078px){
+    footer{
+        text-align: center;
+        border: none;
+        background-color: #000000;
+        width: 100%;
+        padding: 5px;
+        border-radius: 0;
+        font-size: 20px;
+        margin: 0 auto;
+        border-top: none;
+    }
+
+    #logo, #links{
+        display: none;
+    }
+
+    
+    h1{
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h2{
+        text-shadow: 
+            2.5px 0px 0px #8257E5,
+            0px 2.5px 0px #8257E5,
+            -2.5px 0px 0px #8257E5,
+            0px -2.5px 0px #8257E5;
+    
+        color: black;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #cup{
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    #blurTop, #blurBottom{
+        display: none;
+    }
+
+    header{
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    button{
+        padding: 11px 38px;
+        font-size: 11px;
+        font-weight: 800;
+        border-radius: 6px;
+        border: 1px solid #8257E5;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        margin-left: 0;
+        
+    }
+
+    #blurMobile{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+
+    /* Menu */
+
+    #headerMobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 26px;
+        padding-bottom: 25px;
+        border-bottom: solid 1px #29292E;
+    }
+
+    h3{
+        display: block;
+        color: white;
+        font-size: 30px;
+        width: 373px;
+        font-weight: 600;
+        text-align: center;
+        margin: 85.5px auto 0;
+    }
+
+    #cafe{
+        margin: 0 auto;
+        margin-top: 88px;
+        margin-bottom: 40px;
+        background-image: url(/assets/arrow.svg);
+        background-repeat: no-repeat;
+        background-position: 83%, 50%;
+        padding: 10px 50px 10px 30px;
+    }
+
+    #menu{
+        width: 24px;
+        height: 8px;
+        padding: 0;
+        background-image: url(/assets/menu-buguer-open.svg);
+        background-repeat: no-repeat;
+        border: none;
+    }
+}
