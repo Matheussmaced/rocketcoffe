@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+/*blurs*/
+#blurTop{
+    width: 321px;
+    position: absolute;
+    margin-top: 0;
+    right: 0;
+    top: 0;
+    background-color: #996DFF;
+    filter: blur(200px);
+}
+
+#blurBottom{
+    width: 321px;
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    background-color: #996DFF;
+    filter: blur(200px);
+}
+
+/*Containers*/
+
+#container-child{
+    max-width: 860px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+/*header*/
+
+header{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 918px;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 32.43px;
+    color: white;
+    font-size: 14px;
+}
+
+#home{
+    margin-left: 0;
+}
+
+#logo{
+    margin-right: 140px;
+}
+
+button{
+    padding: 11px 38px;
+    font-size: 11px;
+    font-weight: 800;
+    border-radius: 6px;
+    border: 1px solid #8257E5;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 130px;
+    
+}
+
+/*Names*/
+
+#names{
+    margin: 56px auto 0;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2{
+    text-shadow: 
+        2.5px 0px 0px #8257E5,
+        0px 2.5px 0px #8257E5,
+        -2.5px 0px 0px #8257E5,
+        0px -2.5px 0px #8257E5;
+
+    color: black;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+/*cups*/
+
+#copos{
+    margin-top: 1px;
+    text-align: center;
+}
+
+#cup{
+    position: relative;
+    top: 0;
+}
+
+/*Footer*/
+
+h5{
+    color: white;
+}
+
+#name{
+    color: #b89aff;
+    margin-left: 2px;
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    border: solid 1px #8257E5;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px 25px 5px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+
+/*Mobile*/
+
