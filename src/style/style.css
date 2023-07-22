@@ -182,7 +182,7 @@ h3{
             -2.5px 0px 0px #8257E5,
             0px -2.5px 0px #8257E5;
     
-        color: black;
+        color: #12082a;
         font-size: 50px;
         text-align: center;
     }
@@ -198,7 +198,7 @@ h3{
     }
 
     header{
-        max-width: 50%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -260,5 +260,43 @@ h3{
         background-image: url(/assets/menu-buguer-open.svg);
         background-repeat: no-repeat;
         border: none;
+        border-radius: 0;
     }
+
+    .menuStyle{
+        width: 24px;
+        height: 20px !important;
+        padding: 0;
+        border: none;
+        border-radius: 0 !important;
+        background-image: url(/assets/menu-buguer-close.svg) !important;
+        background-repeat: no-repeat;
+    }
+
+    /*JS*/
+
+    .hide{
+        display: none !important;
+    }
+
+    .links{
+        display: flex !important;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        line-height: 50px;
+    }
+
+    a{
+        color: #A8A8B3;
+        font-size: 18px;
+        border: solid #29292E 1px;
+        margin-left: 0;
+        padding-left: 25.82px;
+    }
+
+    a:hover{
+        border-left: solid #8257E5 5px;
+    }
+
 }
